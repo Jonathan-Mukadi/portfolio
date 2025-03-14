@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "private": true,
+  "homepage": "https://jonathan-mukadi.github.io/portfolio/",
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://jonathan-mukadi.github.io/portfolio",
@@ -10,10 +10,14 @@
     "predeploy": "npm run build",
     "deploy": "vite build && gh-pages -d dist",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "framer-motion": "^11.15.0",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
