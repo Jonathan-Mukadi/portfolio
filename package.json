@@ -3,16 +3,15 @@
   "homepage": "https://jonathan-mukadi.github.io/portfolio/",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jonathan-mukadi.github.io/portfolio",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "vite build && gh-pages -d dist",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
+  
 
   },
   "dependencies": {
