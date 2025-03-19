@@ -35,7 +35,8 @@ export const projects = [
     title: "To-Do App",
     image: project3,
     description:
-      "A simple task manager built with HTML, CSS, and JavaScript. Features include adding, completing, and deleting tasks."
+      "A simple task manager built with HTML, CSS, and JavaScript. Features include adding, completing, and deleting tasks.",
+    link: "https://jonathan-mukadi.github.io/to-do-app/"
   },
   {
     id: 4,
