@@ -1,8 +1,8 @@
 import  project1  from "../assets/project1.png";
-import  project2  from "../assets/project2.png";
+// import  project2  from "../assets/project2.png";
 import  project3  from "../assets/project3.png";
 import  project4  from "../assets/project4.png";
-import  project5  from "../assets/project5.png";
+// import  project5  from "../assets/project5.png";
 import { BiCodeAlt, BiLaptop, BiSpreadsheet } from "react-icons/bi";
 
 export const menuItems = [
@@ -15,13 +15,13 @@ export const menuItems = [
 
 export const projects = [
   
-  {
-    id: 1,
-    title: "Weather App",
-    image: project2,
-    description:
-      "Weather app using HTML, CSS, and JavaScript, integrated with a weather API. Displays real-time weather data.",
-  },
+  // {
+  //   id: 1,
+  //   title: "Weather App",
+  //   image: project2,
+  //   description:
+  //     "Weather app using HTML, CSS, and JavaScript, integrated with a weather API. Displays real-time weather data.",
+  // },
   {
     id: 2,
     title: "Calculator",
@@ -43,15 +43,16 @@ export const projects = [
     title: "Shoe Store App",
     image: project4,
     description: 
-      "A sleek and user-friendly web application built with HTML, CSS, and JavaScript that allows customers to make calculations, track sales data and generate a receipt."
+      "A sleek and user-friendly web application built with HTML, CSS, and JavaScript that allows customers to make calculations, track sales data and generate a receipt.",
+    link: "https://sparkly-mochi-9488ba.netlify.app/"
   },
-  {
-    id: 5,
-    title: "Lodge Management System",
-    image: project5,
-    description: 
-      "Built with HTML, CSS, JavaScript, Node.js, and SQLite, the system allows the lodge owner to manage occupant details, track payments, handle reservations, cancellations, and calculate revenue for each room."
-  }
+  // {
+  //   id: 5,
+  //   title: "Lodge Management System",
+  //   image: project5,
+  //   description: 
+  //     "Built with HTML, CSS, JavaScript, Node.js, and SQLite, the system allows the lodge owner to manage occupant details, track payments, handle reservations, cancellations, and calculate revenue for each room."
+  // }
 ];
 
 export const services = [

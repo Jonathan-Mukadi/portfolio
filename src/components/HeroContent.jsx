@@ -21,7 +21,7 @@ const HeroContent = ({ variants }) => {
 
         <div className="flex items-center gap-2 mt-5">
 
-            <a href="/MyResume.docx.pdf" download="Jonathan_Mukadi_Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/uc?export=download&id=1gbxCeUiFfIfg6I2DT7M0aymLQvDLspTP" download="jonathan-mukadi-resume.pdf" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline">Download My Résumé</Button>
             </a>
             
